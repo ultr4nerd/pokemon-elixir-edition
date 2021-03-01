@@ -10,7 +10,7 @@ defmodule PokemonElixirEdition.Bank do
     GenServer.start_link(__MODULE__, nil, name: __MODULE__)
   end
 
-  ### Exyernal API
+  ### External API
 
   @spec backup(map()) :: :ok
   @doc """
