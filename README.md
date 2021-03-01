@@ -1,21 +1,19 @@
 # PokemonElixirEdition
 
-**TODO: Add description**
+A brand new Pokémon game, made with Elixir and OTP
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `pokemon_elixir_edition` to your list of dependencies in `mix.exs`:
+## Usage
 
 ```elixir
-def deps do
-  [
-    {:pokemon_elixir_edition, "~> 0.1.0"}
-  ]
-end
+PokemonElixirEdition.catch_pokemon(7)  # Catches Pokémon 7 if it exists
+PokemonElixirEdition.check_pokedex(7)  # Checks if pokémon with ID 7 has been catched
+PokemonElixirEdition.check_pokedex  # This gets all created Pokémons
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/pokemon_elixir_edition](https://hexdocs.pm/pokemon_elixir_edition).
+## Docs
 
+You can generate the docs with the following:
+
+```command-line
+$ mix docs
+```
